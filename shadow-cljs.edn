@@ -1,4 +1,5 @@
 {:deps {:aliases [:cljs]}
+ :dev-http {4400 ["resources/" "target/pwa/"]}
  ;:nrepl {:middleware [portal.nrepl/wrap-portal]}
  :builds
  {:client
